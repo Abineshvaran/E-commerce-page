@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redcart</title>
+    <link rel="icon" href="meteor.png">
+    <i class="fa-solid fa-meteor fa-shake fa-xl" style="color: #9f261d;"></i>
+   
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Redcart</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></P>
+            <p class="navbar-link"><a href="collection.html">Collection</a></P>
+            <p class="navbar-link"><a href="contact.html">Contact</a></P>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Side navbar-->
+    <div class="side-navbar">
+        <P style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </P>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></P>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></P>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></P>
+
+
+        </div>
+
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="product" id="products">
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?shirt" alt="">
+                <p>Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?Trousers" alt="">
+                <p>Trousers</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?shorts" alt="">
+                <p>Shorts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?T-shirt" alt="">
+                <p>T-shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?jeans" alt="">
+                <p>jeans</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?Footwear" alt="">
+                <p>Footwear</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?Winterwear" alt="">
+                <p>Winterwear</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https:/source.unsplash.com/random/200x200/?Suits" alt="">
+                <p>Suits</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Redcart</h2>
+                <p>Always aim to be better than your best self!, Always deliver more than expected.</p>
+                <p>follow us</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+        <p>copyrigth @2024 Redcart,Inc <avib class="com"></avib>
+        </p>
+        <p>All rights reserved. Privacy | Terms | Ethics</p>
+
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
